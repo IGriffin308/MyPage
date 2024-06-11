@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  background-color: rgb(156, 169, 203);
+}
+
+#bgStripe {
+  position: absolute;
+  top: 25vh;
+  width: 100%;
+  height: 50vh;
+  background-color: rgb(89, 108, 150);
+  z-index: -1;
+}
+
+.custom-page {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border: 3px solid black;
+  border-radius: 10px;
+  width: 50%;
+  height: 50%;
+  padding: 5%;
+}
+
+.custom-page h1 {
+  position: relative;
+  font-size: 2em;
+  color: black;
+  margin-left: 10%;
+  top: -1em;
+}
+
+.custom-page h2 {
+  position: relative;
+  font-size: 1em;
+  color: black;
+  margin-left: calc(10% + 1em);
+  top: calc(-4em + 5px);
+  font-weight: normal;
+}
+
+.custom-page p {
+  position: relative;
+  font-size: 1em;
+  color: black;
+  top: -3em;
+  height: 70%;
+  overflow: auto;
+}
